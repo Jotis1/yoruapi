@@ -1,0 +1,21 @@
+{
+  "name": "yoruapi",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun run src/index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.10.2",
+    "@graphql-tools/merge": "^9.0.3",
+    "@supabase/supabase-js": "^2.42.0",
+    "graphql": "^16.8.1",
+    "graphql-scalars": "^1.23.0"
+  }
+}
