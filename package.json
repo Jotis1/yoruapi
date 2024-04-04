@@ -3,7 +3,6 @@
   "module": "index.ts",
   "type": "module",
   "scripts": {
-    "compile": "tsc",
     "start": "bun run src/index.ts"
   },
   "devDependencies": {
@@ -13,6 +12,7 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
+    "@apollo/datasource-rest": "^6.2.2",
     "@apollo/server": "^4.10.2",
     "@graphql-tools/merge": "^9.0.3",
     "@supabase/supabase-js": "^2.42.0",

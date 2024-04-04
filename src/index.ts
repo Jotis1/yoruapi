@@ -6,11 +6,10 @@ import { resolvers } from "./resolvers";
 
 const server = new ApolloServer({
     typeDefs,
-    resolvers
+    resolvers,
+    introspection: true,
 });
 
-const { url } = await startStandaloneServer(server, {
+await startStandaloneServer(server, {
     listen: { port: Number(process.env.PORT || 4000) },
 });
-
-console.log(`Server ready at ${url}`);
