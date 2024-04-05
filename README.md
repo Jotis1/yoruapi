@@ -1,5 +1,5 @@
 # Documentation
-> [!INFO]
+> [!NOTE]
 This is the official YoruAPI source code for a Dockerized instance of the GraphQL endpoint (served at **[api.yoruverse.com/graphql](https://api.yoruverse.com/graphql))** and the javascript SDK.
 
 ---
@@ -12,5 +12,5 @@ git clone https://github.com/Jotis1/yoruapi.git
 ```
 ---
 ## Usage
-> [!INFO]
+> [!NOTE]
 > You can use the **[graphql endpoint](https://api.yoruverse.com/graphql)** or the javascript SDK (coming out soon).
